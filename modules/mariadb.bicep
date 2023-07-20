@@ -43,7 +43,7 @@ resource mariaDbServer 'Microsoft.DBforMariaDB/servers@2018-06-01' = {
   }
   properties: {
     createMode: 'Default'
-    version: '10.3'
+    version: '10.11'
     administratorLogin: administratorLogin
     administratorLoginPassword: administratorLoginPassword
     publicNetworkAccess: (vnet ? 'Disabled' : 'Enabled')
